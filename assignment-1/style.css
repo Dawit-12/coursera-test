@@ -1,0 +1,160 @@
+	*{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	h1{
+        color: green;
+        text-align: center;
+        margin-bottom: 15px;
+	}
+
+		#one{
+
+			border: 1px solid;
+			border-style: unset;
+			margin-left: 0.5%;
+			padding: 15px;
+			width: 31.7%;
+			float: right;
+			 
+		}
+		#two{
+			position: relative;
+			border: 1px solid;
+
+			padding: 1.2%;
+			padding-top: 1.4%;
+			width: 32%;
+			float: right;
+			margin-right: 0.5%;
+			margin-left: 0.5%;
+			background-color : grey;
+		}
+		#three{
+			position: relative;
+			border: 1px solid;
+			margin-right : 0.5%;
+			margin-left: 1.1%;
+			padding: 1.2%;
+			padding-top: 1.4%;
+			width: 32%;
+			background-color:  grey;
+		}
+		#one{
+			position: relative;
+			margin-right: 1.1%;
+			border: 1px solid;
+			margin-left: 0.5%;
+			padding: 1.2%;
+			padding-top: 1.4%;
+			width: 32%;
+			float: right;
+			background-color:  grey;
+		}
+			
+
+		}
+		#five{
+			position: relative;
+			margin-left: 2%;
+			border: 1px solid;
+			margin-right : 0.5%;
+			padding: 1%;
+			width: 31.7%;
+
+		}
+		#six{
+			
+			border: 1px solid black;
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			background-color: #820802;
+			padding-left: 2%;
+			padding-right: 2%;
+			color: white;
+			margin-bottom: 0.5%;
+			
+			}
+
+		
+
+			@media (max-width: 991px) and (min-width: 768px){
+
+				#two{
+                     
+                      width: 47%;
+                   position: absolute;
+                   padding: 3%;
+                   top: 40px;
+                   right: 0px;
+                   height: 160px;
+                   margin-right: 2%;
+
+				}
+				#three{
+					width: 47%;
+					position: absolute;
+					padding: 3%;
+					top: 40px;
+					left: 0px;
+					height: 160px;
+					margin-left: 2%;
+				}
+				#one{
+					position: absolute;
+					top: 220px;
+					width: 96%;
+					padding-top: 3%;
+					height: 100px;
+					padding-bottom: 3%;
+					margin-left: 2%;
+					
+
+					
+
+				}
+			}
+
+			@media (max-width: 767px){
+				
+				
+				#one{
+					position: absolute;
+					top: 40px;
+					width:100%;
+					padding: 3%;
+					margin-right: 1%;
+					padding-bottom: 3%;
+					padding-top: 6%;
+						
+
+				}
+				
+				#two{
+                   
+                   width: 100%;
+                   position: absolute;
+                   padding: 3%;
+                   top: 200px;
+                   margin-right: 1%;
+                   padding-top: 6%;
+                   
+                
+
+				}
+				
+				
+				#three{
+					width: 100%;
+					position: absolute;
+					padding: 3%;
+					top: 360px;
+					margin-right: 1%;
+					padding-top: 6%;
+					
+					
+				}
+				
+			}
